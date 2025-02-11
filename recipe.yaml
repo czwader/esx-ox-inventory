@@ -16,8 +16,8 @@ tasks:
   
   # Download and prepare server.cfg / loadingscreen / database
   - action: download_github
-    src: https://github.com/esx-framework/esx-recipes
-    ref: legacy
+    src: https://github.com/czwader/esx-ox-inventory
+    ref: main
     dest: ./tmp/recipe
 
   - action: move_path
